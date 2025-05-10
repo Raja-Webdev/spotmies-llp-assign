@@ -1,4 +1,4 @@
-const getGeminiResponse = require("../services/geminiApi");
+const getGeminiResponse = require("../services/geminiService");
 const apiController = async (req, res) => {
   try {
     const userQuery = "what are you doing?";
